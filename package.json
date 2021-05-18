@@ -1,13 +1,22 @@
 {
   "name": "employee-tracker-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A command line application Content Management Systems for managing a company's employees where it can view and manage the departments, roles, and employees",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KorolyovaLara/Employee-Tracker-App.git"
+  },
+  "author": "Larysa Korolyova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KorolyovaLara/Employee-Tracker-App/issues"
+  },
+  "homepage": "https://github.com/KorolyovaLara/Employee-Tracker-App#readme",
   "dependencies": {
     "console.table": "^0.10.0",
     "inquirer": "^8.0.0",
