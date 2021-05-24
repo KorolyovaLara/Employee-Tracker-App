@@ -62,7 +62,7 @@ The screenshot below shows an example of the database:
 
 - Application is started by using the following command in the terminal:
 
-  `node app.js`
+  `node server.js`
 
 - The user will be prompted to view, add and update information about Employees, Roles and Departments.
 
